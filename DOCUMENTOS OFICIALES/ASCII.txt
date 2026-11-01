@@ -1,0 +1,315 @@
+----------------------------------------------------------------------------------
+                                       TABLA ASCII
+----------------------------------------------------------------------------------
+Caracteres de Control (No Representativos)
+----------------------------------------------------------------------------------
+Car.   Dec   Hex    Descripción
+-----  ---   ---    -------------------------------------------------------------
+NUL     0    00     Caracter de nulo 
+SOH     1    01     Inicio de encabezado
+                    (Start of heading, = console interrupt)
+STX     2    02     Inicio de texto "Start of text" 
+ETX     3    03     Fin de texto "End of text"
+EOT     4    04     Fin de transmisión, no es como ETB 
+ENQ     5    05     Enquiry viene con ACK;
+ACK     6    06     "Acknowledge", limpia ENQ
+BEL     7    07     Campana (Bell), hace un sonido... 
+                    (Ejecuta el beep por defecto del Windows)
+BS      8    08     Retroceso (Backspace)
+HT      9    09     Tabulación Horizontal
+LF     10    0a     Línea de retorno
+VT     11    0b     Tabulación vertical
+FF     12    0c     Retorno de Forma
+CR     13    0d     Retorno de carro
+SO     14    0e     Caracter alterno (Shift Out)
+SI     15    0f     Shift In, fija el caracter por defecto
+DLE    16    10     Escape de vínculo
+DC1    17    11     XON, con XOFF para pausar listas;
+                    ":okay to send". 
+----------------------------------------------------------------------------------
+Car.  Dec    Hex    Descripción
+----  ---    ---    --------------------------------------------------------------
+DC2   18     12     Control de dispositivo 2, Control de flujo de modo-bloque
+DC3   19     13     XOFF, with XON is TERM=18 flow control 
+DC4   20     14     Device control 4 
+NAK   21     15     Negative acknowledge 
+SYN   22     16     Synchronous idle 
+ETB   23     17     Fin de transmisión de bloque, no igual a EOT 
+CAN   24     17     Línea de Cancelar
+EM    25     19     Fin de en medio, Control-Y interrumpe
+SUB   26     1a     Sustituto 
+ESC   27     1b     Escape
+FS    28     1c     Separator de archivo
+GS    29     1d     Separador de grupo
+RS    30     1e     Separador de grabado (Record separator)
+US    31     1f     Separator de unidad
+----------------------------------------------------------------------------------
+Caracteres Representativos Estandar
+----------------------------------------------------------------------------------
+Car.  Dec    Hex    Descripción
+----  ---    ---    -------------------------------------------------------------
+      32     20     Espacio 
+!     33     21     Signo de Exclamación
+"     34     22     Signo de comillas (&quot; en HTML) 
+#     35     23     Numeral
+$     36     24     Signo de dólar 
+%     37     25     Signo de Porcentaje
+&     38     26     Ampersand 
+`     39     27     Comilla sencilla de cerrar (apóstrofe) 
+(     40     28     Abre paréntesis 
+)     41     29     Cierra paréntesis 
+*     42     2a     Asterisco (signo de multiplicar) 
++     43     2b     Signo de más
+,     44     2c     Coma 
+-     45     2d     Raya, trazo, signo de menos 
+.     46     2e     Punto, período 
+/     47     2f     Pleca inclinada (signo de dividir) 
+0     48     30     Cero 
+1     49     31     Uno 
+2     50     32     Dos 
+3     51     33     Tres 
+4     52     34     Cuatro 
+5     53     35     Cinco 
+----------------------------------------------------------------------------------
+Car.  Dec    Hex    Descripción
+----  ---    ---    --------------------------------------------------------------
+6     54     36     Seis 
+7     55     37     Siete 
+8     56     38     Ocho 
+9     57     39     Nueve 
+:     58     3a     Dos puntos 
+;     59     3b     Punto y coma
+<     60     3c     Signo menor que 
+=     61     3d     Signo de igualdad
+>     62     3e     Signo de mayor que
+?     63     3f     Signo de interrogación
+@     64     40     Signo de arroba
+A     65     41     A mayúscula 
+B     66     42     B mayúscula
+C     67     43     C mayúscula
+D     68     44     D mayúscula
+E     69     45     E mayúscula
+F     70     46     F mayúscula
+G     71     47     G mayúscula
+H     72     48     H mayúscula
+I     73     49     I mayúscula
+J     74     4a     J mayúscula
+----------------------------------------------------------------------------------
+Car.  Dec    Hex    Descripción
+----  ---    ---    --------------------------------------------------------------
+K     75     4b     K mayúscula
+L     76     4c     L mayúscula
+M     77     4d     M mayúscula
+N     78     4e     N mayúscula
+O     79     4f     O mayúscula
+P     80     50     P mayúscula
+Q     81     51     Q mayúscula
+R     82     52     R mayúscula
+S     83     53     S mayúscula
+T     84     54     T mayúscula
+U     85     55     U mayúscula
+V     86     56     V mayúscula
+W     87     57     W mayúscula
+X     88     58     X mayúscula
+Y     89     59     Y mayúscula
+Z     90     5a     Z mayúscula
+[     91     5b     Abre llave cuadrada
+\     92     5c     Pleca invertida 
+]     93     5d     Cierra llave cuadrada 
+^     94     5e     Caret (Signo de exponenciación) 
+_     95     5f     Guíon bajo
+----------------------------------------------------------------------------------
+Car.  Dec    Hex    Descripción
+----  ---    ---    --------------------------------------------------------------
+`     96     60     Coma sencilla abierta
+a     97     61     a minúscula
+b     98     62     b minúscula
+c     99     63     c minúscula
+d     100    64     d minúscula
+e     101    65     e minúscula
+f     102    66     f minúscula
+g     103    67     g minúscula
+h     104    68     h minúscula
+i     105    69     i minúscula
+j     106    6a     j minúscula
+k     107    6b     k minúscula
+l     108    6c     l minúscula
+m     109    6d     m minúscula
+n     110    6e     n minúscula
+o     111    6f     o minúscula
+p     112    70     p minúscula
+q     113    71     q minúscula
+r     114    72     r minúscula
+----------------------------------------------------------------------------------
+Car.  Dec    Hex    Descripción
+----  ---    ---    --------------------------------------------------------------
+s     115    73     s minúscula
+t     116    74     t minúscula
+u     117    75     u minúscula
+v     118    76     v minúscula
+w     119    77     w minúscula
+x     120    78     x minúscula
+y     121    79     y minúscula
+z     122    7a     z minúscula
+{     123    7b     Llave abierta
+|     124    7c     Barra vertical
+}     125    7d     Llave de cierre
+~     126    7e     Tilde (signo de aproximado) 
+     127    7f     Borrar, caja de numeral
+----------------------------------------------------------------------------------
+Caracteres Extendidos
+----------------------------------------------------------------------------------
+Car.  Dec    Hex    Descripción
+----  ---    ---    --------------------------------------------------------------
+€     128    80     
+      129    81      Nota: Este caracter no se puede mostrar en esta 
+                           ayuda compilada
+‚     130    82     
+ƒ     131    83     
+„     132    84     
+…     133    85     
+†     134    86     
+‡     135    87     
+ˆ     136    88     
+‰     137    89     
+Š     138    8A     
+‹     139    8B     
+Œ     140    8C     
+      141    8D     Nota: Este caracter no se puede mostrar en esta 
+                          ayuda compilada
+Ž     142    8E     
+      143    8F     Nota: Este caracter no se puede mostrar en esta 
+                          ayuda compilada
+      144    90     Nota: Este caracter no se puede mostrar en esta 
+                          ayuda compilada
+----------------------------------------------------------------------------------
+Car.  Dec    Hex    Descripción
+----  ---    ---    --------------------------------------------------------------
+‘     145    91     
+’     146    92     
+“     147    93     
+”     148    94     
+•     149    95     
+–     150    96     
+—     151    97     
+˜      152    98     
+™     153    99     
+š     154    9A     
+›     155    9B     
+œ     156    9C     
+      157    9D     Nota: Este caracter no se puede mostrar en esta 
+                          ayuda compilada
+ž     158    9E     
+Ÿ     159    9F     
+      160    A0     
+¡     161    A1     
+¢     162    A2     
+£     163    A3     
+¤     164    A4    
+----------------------------------------------------------------------------------
+Car.  Dec    Hex    Descripción
+----  ---    ---    -------------------------------------------------------------- 
+¥     165    A5     
+¦     166    A6     
+§     167    A7     
+¨     168    A8     
+©     169    A9     
+ª     170    AA     
+«     171    AB     
+¬     172    AC     
+¬     173    AD     Nota: Este caracter no se puede mostrar en esta 
+                          ayuda compilada
+®     174    AE     
+¯     175    AF     
+°     176    B0     
+±     177    B1     
+²     178    B2     
+³     179    B3     
+´     180    B4     
+µ     181    B5     
+¶     182    B6 
+----------------------------------------------------------------------------------
+Car.  Dec    Hex    Descripción
+----  ---    ---    --------------------------------------------------------------    
+•     183    B7     
+¸     184    B8     
+¹     185    B9     
+º     186    BA     
+»     187    BB     
+¼     188    BC     
+½     189    BD     
+¾     190    BE     
+¿     191    BF     
+À     192    C0     
+Á     193    C1     
+Â     194    C2     
+Ã     195    C3     
+Ä     196    C4     
+Å     197    C5     
+Æ     198    C6     
+Ç     199    C7     
+È     200    C8  
+----------------------------------------------------------------------------------
+Car.  Dec    Hex    Descripción
+----  ---    ---    --------------------------------------------------------------   
+É     201    C9     
+Ê     202    CA     
+Ë     203    CB     
+Ì     204    CC     
+Í     205    CD     
+Î     206    CE     
+Ï     207    CF     
+Ð     208    D0     
+Ñ     209    D1     
+Ò     210    D2     
+Ó     211    D3     
+Ô     212    D4     
+Õ     213    D5     
+Ö     214    D6     
+×     215    D7     
+Ø     216    D8     
+Ù     217    D9     
+Ú     218    DA     
+Û     219    DB     
+Ü     220    DC     
+Ý     221    DD
+----------------------------------------------------------------------------------
+Car.  Dec    Hex    Descripción
+----  ---    ---    --------------------------------------------------------------     
+Þ     222    DE     
+ß     223    DF     
+à     224    E0     
+á     225    E1     
+â     226    E2     
+ã     227    E3     
+ä     228    E4     
+å     229    E5     
+æ     230    E6     
+ç     231    E7     
+è     232    E8     
+é     233    E9     
+ê     234    EA     
+ë     235    EB     
+ì     236    EC     
+í     237    ED     
+î     238    EE     
+ï     239    EF     
+ð     240    F0     
+ñ     241    F1  
+----------------------------------------------------------------------------------
+Car.  Dec    Hex    Descripción
+----  ---    ---    --------------------------------------------------------------   
+ò     242    F2     
+ó     243    F3     
+ô     244    F4     
+õ     245    F5     
+ö     246    F6     
+÷     247    F7     
+ø     248    F8     
+ù     249    F9     
+ú     250    FA     
+û     251    FB     
+ü     252    FC     
+ý     253    FD     
+þ     254    FE     
+ÿ     255    FF
